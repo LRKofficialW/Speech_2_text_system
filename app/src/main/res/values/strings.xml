@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">NeuroScribe</string>
-    <string name="notification_channel_name">Стенографирование аудио</string>
-    <string name="notification_channel_desc">Фоновое распознавание и диаризация речи</string>
-    <string name="action_cancel">Отмена</string>
-</resources>
