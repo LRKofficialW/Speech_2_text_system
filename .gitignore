@@ -2,8 +2,10 @@
 .gradle/
 build/
 app/build/
-*.apk
 *.aab
+
+# Track release APKs for direct download, ignore other build apks
+!release/*.apk
 
 # Test audio binaries (synthetic WAVs generated during benchmarks)
 benchmark/test_data/

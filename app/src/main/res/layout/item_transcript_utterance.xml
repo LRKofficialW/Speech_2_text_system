@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/surface">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="6dp">
+
+        <TextView
+            android:id="@+id/tvSpeakerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="speaker_1"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/speaker_1"
+            android:background="@color/surface_variant"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="3dp" />
+
+        <TextView
+            android:id="@+id/tvTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="00:01 - 00:04"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvUtteranceText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пример распознанной реплики."
+        android:textSize="15sp"
+        android:textColor="@color/text_primary"
+        android:lineSpacingExtra="3dp" />
+
+</LinearLayout>
